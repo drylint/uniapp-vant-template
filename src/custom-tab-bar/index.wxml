@@ -1,0 +1,7 @@
+<van-tabbar active="{{ active }}" bind:change="onChange">
+  <van-tabbar-item wx:for="{{ list }}" wx:key="index">
+    <text>{{ item.text }}</text>
+    <text slot="icon" class="iconfont icon-question-circle"></text>
+    <text slot="icon-active" class="iconfont icon-question-circle"></text>
+  </van-tabbar-item>
+</van-tabbar>

@@ -1,0 +1,40 @@
+// flex布局
+@mixin flex($justify: flex-start, $align: stretch, $direction: row, $wrap: nowrap) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+// 按钮
+@mixin btn ($bg: #448ACA, $txt-color: #ffffff, $width: 100%, $fontSize: 14px) {
+  text-align: center;
+  background: $bg;
+  color: $txt-color;
+  width: $width;
+  font-size: $fontSize;
+  padding: 0.5em 0;
+  border-radius: 5px;
+  &:hover {
+    background: #559bdb;
+  }
+}
+
+// 单行显示省略号
+@mixin singleline-ellipsis () {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 多行显示省略号
+@mixin multiline-ellipsis ($count: 2) {
+  display: -webkit-box;
+  -webkit-line-clamp: $count;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}

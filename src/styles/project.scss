@@ -1,0 +1,17 @@
+// 存放本项目独有的样式
+/* stylelint-disable selector-type-no-unknown */
+
+page {
+  background: #f3f3f3;
+  color: #333;
+}
+
+$h6Size: 28rpx;
+$hList: (1, 2, 3, 4, 5, 6);
+
+@each $h in $hList {
+  .g-h#{$h} {
+    font-weight: bold;
+    font-size: $h6Size + (($h - 6) * -4);
+  }
+}

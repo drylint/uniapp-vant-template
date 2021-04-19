@@ -1,0 +1,62 @@
+/* stylelint-disable selector-type-no-unknown */
+
+page,
+page::before,
+page::after,
+view,
+view::before,
+view::after,
+button,
+button::before,
+button::after,
+image,
+image::before,
+image::after,
+text,
+text::before,
+text::after,
+input,
+input::before,
+input::after,
+canvas,
+canvas::before,
+canvas::after,
+swiper,
+swiper::before,
+swiper::after,
+swiper-item,
+swiper-item::before,
+swiper-item::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+page {
+  font-size: 28rpx;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.comp {
+  border: 4rpx solid #f00;
+  padding: 20rpx;
+}
+
+.g-button {
+  margin: 1em;
+  padding: 0.5em 1em;
+  height: unset;
+  min-height: unset;
+  line-height: unset;
+}
+
+.g-input {
+  height: unset;
+  line-height: unset;
+  min-height: unset;
+  border: 1rpx solid #e5e5e5;
+  padding: 0.5em;
+  border-radius: 8rpx;
+}

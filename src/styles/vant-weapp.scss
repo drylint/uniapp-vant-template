@@ -1,0 +1,42 @@
+/* stylelint-disable selector-type-no-unknown */
+
+@import '../wxcomponents/vant/common/index.css';
+
+// .van-button {
+//   margin-top: 2em;
+// }
+
+.van-radio-group {
+  width: 100%;
+  flex: 1;
+}
+
+// 单选，多选，设置选项的右侧、下侧外边距
+.van-radio,
+.van-checkbox {
+  margin: 0 1em 0.5em 0;
+}
+
+// 水平排列选项时，设置选项的右外边距
+.van-radio--horizontal {
+  margin-right: 1em;
+}
+
+// 单选，多选，勾选框和 label 之间的 margin 改为 padding ，以增大可点击区域
+.van-checkbox__label,
+.van-radio__label {
+  margin-left: 0 !important;
+  padding-left: 10px;
+  padding-left: var(--radio-label-margin, 10px);
+}
+
+// 取消 field 组件的 input 插槽的固定高度，以便于插入单选，多选且换行时不能自动撑开高度
+.van-field__body,
+.van-field__control {
+  height: unset !important;
+}
+
+.van-horizontal {
+  display: flex;
+  flex-wrap: wrap;
+}
