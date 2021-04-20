@@ -89,7 +89,7 @@ npm run build
 }
 ```
 
-在页面中注册组件方式(不推荐)详见 [uni-app 文档](https://uniapp.dcloud.io/component/mp-weixin-plugin?id=%e5%9c%a8%e9%a1%b5%e9%9d%a2%e4%b8%ad%e4%bd%bf%e7%94%a8)
+在页面中注册组件方式(不推荐)详见 [uni-app 文档](https://uniapp.dcloud.io/frame?id=%e5%b0%8f%e7%a8%8b%e5%ba%8f%e8%87%aa%e5%ae%9a%e4%b9%89%e7%bb%84%e4%bb%b6%e6%94%af%e6%8c%81)
 
 在 `usingComponents` 对象中，每一个 `key` 就是将来在代码中要是用的组件名，`value` 就是组件代码所在的路径。
 
