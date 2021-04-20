@@ -1,42 +1,42 @@
 {
-	"pages": [
+  "pages": [
     {
-			"path": "pages/home/form/index",
-			"style": {
+      "path": "pages/home/form/index",
+      "style": {
         "navigationBarTitleText": "表单组件"
-			}
-		},
+      }
+    },
     {
-			"path": "pages/home/index",
-			"style": {
+      "path": "pages/home/index",
+      "style": {
         "navigationBarTitleText": "uniapp-vant-template"
-			}
-		},
+      }
+    },
     {
-			"path": "pages/home/basicComponents/index",
-			"style": {
+      "path": "pages/home/basicComponents/index",
+      "style": {
         "navigationBarTitleText": "基础组件"
-			}
-		},
+      }
+    },
     {
-			"path": "pages/demo01/index",
-			"style": {
+      "path": "pages/demo01/index",
+      "style": {
         "navigationBarTitleText": "示例一"
-			}
-		},
+      }
+    },
     {
-			"path": "pages/demo02/index",
-			"style": {
+      "path": "pages/demo02/index",
+      "style": {
         "navigationBarTitleText": "示例二"
-			}
-		},
+      }
+    },
     {
-			"path": "pages/me/index",
-			"style": {
+      "path": "pages/me/index",
+      "style": {
         "navigationBarTitleText": "我"
-			}
-		}
-	],
+      }
+    }
+  ],
   "tabBar": {
     "custom": true,
     "position": "bottom",
@@ -71,10 +71,10 @@
       }
     ]
   },
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "首页",
-		"navigationBarBackgroundColor": "#F7F7F7",
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#F7F7F7",
     "backgroundColor": "#fff",
     "usingComponents": {
       "van-action-sheet": "/wxcomponents/vant/action-sheet/index",
