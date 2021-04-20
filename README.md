@@ -8,13 +8,24 @@
 
 ## 开始
 
+需要先创建一个自己的代码仓库，然后将本模板添加为一个远程仓库即可，这样在本模板有任何更新的时候，都可以直接从本模板直接拉取所有更新。
+
 ```bash
-# 克隆项目模板
-git clone https://github.com/drylint/uniapp-vant-template.git
+# 先在远程创建一个自己项目的空的代码仓库，然后将它克隆到本地电脑上。
+# 克隆自己的代码仓库到电脑本地
+git clone https://github.com/xxx/xxx.git
 
-# 将目录名修改为自己的项目名
+# 进入项目目录
+cd xxx
 
-# 进入项目目录的命令行下安装依赖
+# 关联本仓库 uniapp-vant-template 到自己的项目
+# 实际上就是添加一个远程仓库，将这个远程命名为 temp
+git remote add temp https://github.com/drylint/uniapp-vant-template.git
+
+# 从本模板拉取代码到自己的项目，以后有更新时也执行此命令拉取所有更新
+git pull temp master
+
+# 安装依赖
 npm install
 
 # 运行项目 (开发时使用)
@@ -22,7 +33,12 @@ npm run serve
 
 # 打包项目 (发布时使用)
 npm run build
+
+# 开发一些功能后，推送到自己的仓库
+git push
 ```
+
+将本仓库添加为自己项目代码仓库的远程仓库后，对自己项目其实是没有任何影响，本仓库也是一个只读的，只在你想要拉取代码或更新时，它才会发挥作用，否则，它就像完全不存在一样。
 
 ## 项目结构
 
