@@ -1,10 +1,10 @@
 // flex布局
-@mixin flex($justify: flex-start, $align: stretch, $direction: row, $wrap: nowrap) {
+@mixin flex($justify: space-between, $align: center, $direction: row) {
   display: flex;
+  flex-direction: $direction;
+  flex-wrap: nowrap;
   justify-content: $justify;
   align-items: $align;
-  flex-direction: $direction;
-  flex-wrap: $wrap;
 }
 
 // 按钮
@@ -37,4 +37,14 @@
   word-break: break-all;
   word-wrap: break-word;
   text-overflow: ellipsis;
+  white-space: normal;
+}
+
+// 渐变色文字
+@mixin linear-gradient-text ($params...) {
+  background: linear-gradient($params);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }

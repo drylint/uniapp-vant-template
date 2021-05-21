@@ -1,0 +1,45 @@
+// 黑白灰
+$color-black: #000;
+$color-text-primary: #323233; // 主要文本色，全局默认色，通常不需要手动设置
+$color-text-secondary: #646566; // 次要文本色
+$color-text-tertiary: #969799; // 更次要的文本色
+$color-text-quaternary: #b6b7bb; // 最次要的文本色，基本不使用
+$color-text-tips: #c8c9cc; // 提示文本色，比如列表底部的 【没有更多了】 提示
+$color-text-disabled: #dcdee0; // 禁用，边框等使用的颜色
+$color-page-bg: #f2f3f5; // 页面背景色
+$color-white: #fff;
+
+// 彩色
+$color-red: #ee0a24;
+$color-pink: #413538;
+$color-yellow: #FAAB0C;
+$color-blue: #158BF2;
+$color-green: #07c160;
+$color-orange: #ff976a;
+
+// 字体大小
+$size-font-xs: 20rpx;
+$size-font-sm: 24rpx;
+$size-font-md: 28rpx; // 全局默认文本大小，通常不需要手动设置
+$size-font-lg: 32rpx;
+$size-font-xl: 36rpx;
+$size-font-xxl: 40rpx;
+
+// padding 与 margin
+$space-base: 4px;
+$space-xs: $space-base * 2;
+$space-sm: $space-base * 3;
+$space-md: $space-base * 4;
+$space-lg: $space-base * 6;
+$space-xl: $space-base * 8;
+
+// radius
+$radius-xs: 2px;
+$radius-sm: $radius-xs * 2;
+$radius-md: $radius-xs * 3;
+$radius-lg: $radius-xs * 4;
+$radius-xl: $radius-xs * 5;
+$radius-circle: 50%;
+
+// 边框宽度
+$border-width-xs: 1px;

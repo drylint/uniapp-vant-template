@@ -2,8 +2,21 @@
 /* stylelint-disable selector-type-no-unknown */
 
 page {
-  background: #f3f3f3;
-  color: #333;
+  font-size: $size-font-md;
+  color: $color-text-primary;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Helvetica Neue',
+    Helvetica,
+    Segoe UI,
+    Arial,
+    Roboto,
+    'PingFang SC',
+    'miui',
+    'Hiragino Sans GB',
+    'Microsoft Yahei',
+    sans-serif;
 }
 
 $h6Size: 28rpx;
@@ -14,4 +27,26 @@ $hList: (1, 2, 3, 4, 5, 6);
     font-weight: bold;
     font-size: $h6Size + (($h - 6) * -4);
   }
+}
+
+button {
+  font-size: $size-font-md;
+  color: $color-text-primary;
+}
+
+.g-button {
+  margin: 1em;
+  padding: 0.5em 1em;
+  height: unset;
+  min-height: unset;
+  line-height: unset;
+}
+
+.g-input {
+  height: unset;
+  line-height: unset;
+  min-height: unset;
+  border: 1rpx solid #e5e5e5;
+  padding: 0.5em;
+  border-radius: 8rpx;
 }
